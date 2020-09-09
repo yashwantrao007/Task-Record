@@ -1,0 +1,21 @@
+body {
+  background: greenyellow;
+}
+.todo-container {
+  text-align: center;
+}
+#taskname {
+  width: 150%;
+}
+#taskdescription {
+  width: 150%;
+}
+#creator {
+  width: 150%;
+}
+#duration {
+  width: 150%;
+}
+#created {
+  width: 150%;
+}

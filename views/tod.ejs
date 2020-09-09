@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="/static/stylesheets/style.css" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Candal|Chewy&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <div class="todo-container">
+    <h2>TASK RECORD</h2>
+    <form action="/todo" method="POST">
+      Task Name:
+      <br />
+      <input type="text" placeholder="taskname" id="taskname" name="taskname" />
+      <hr />
+      Task Description:
+      <br />
+      <input
+        type="text"
+        placeholder="taskdescription"
+        id="taskdescription"
+        name="taskdescription"
+      />
+      <hr />
+      Creator:
+      <br />
+      <input type="text" placeholder="creator" id="creator" name="creator" />
+      <hr />
+      Duration:
+      <br />
+      <input type="time" placeholder="duration" id="duration" name="duration" />
+      <hr />
+      Created At:
+      <br />
+      <input type="date" placeholder="created" id="created" name="created" />
+      <hr />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
